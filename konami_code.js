@@ -12,8 +12,8 @@ const codes = [
 ];
 
 
-function init(event) {
-  
+function init() {
+
   let index = 0;
   const key = event.key;
   if(key === codes[index]){
