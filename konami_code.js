@@ -10,7 +10,7 @@ const codes = [
   "b",
   "a"
 ];
-let bodyContent = document.querySelector('body');
+
 
 function init(event) {
   // your code here
@@ -28,4 +28,5 @@ function init(event) {
    }
 }
 
+let bodyContent = document.querySelector('body');
 bodyContent.addEventListener('keydown',init);
